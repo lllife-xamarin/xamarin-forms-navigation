@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{419BD7B8-9E99-4CC4-908B-0EE5782956E9}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>PushPop</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)PushPop.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PushPopPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ModalPage.cs" />
+  </ItemGroup>
+</Project>
