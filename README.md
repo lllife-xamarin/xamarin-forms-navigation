@@ -1,6 +1,6 @@
 ### Xamarin.Forms navigation
 
-#### Entry point
+- PushPop.cs
 
 ```csharp
 public class App : Application
@@ -12,7 +12,7 @@ public class App : Application
 }
 ```
 
-#### PushPopPage
+- PushPopPage.cs
 
 ```csharp
 public class PushPopPage : ContentPage
